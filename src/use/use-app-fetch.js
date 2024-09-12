@@ -15,6 +15,7 @@ export function useAppFetch(fetchAPI, params, initialValue) {
         const res = await fetchAPI(params);
         setResponse(res);
       } catch (error) {
+        console.log(error);
         setError(true);
       } finally {
         setLoading(false);

@@ -30,8 +30,9 @@ npm run build
 - vite
 - JavaScript
 - React v.18
-- React Router DOM v.6
-- AXIOS
+- React Bootstrap (UI lib)
+- React Router DOM v.6 (Routing lib)
+- AXIOS (API lib)
 
 ## Тема урока
 
